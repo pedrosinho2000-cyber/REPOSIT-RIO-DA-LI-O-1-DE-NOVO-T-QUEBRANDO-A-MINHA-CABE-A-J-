@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class pessoa {
+    Private:
+    String nome;
+    int idade;
+    double peso;
+
+    Public:
+    Pessoa(string n, int i, double p) : nome(n), idade (i), peso (p) {}
+
+void exibirDados() const{
+    cout << "Nome: " << nome
+    << ", Idade: " << idade << " anos"
+    << ", Peso: " << peso << " kg" << endl;
+
+}
+};
+
+Int main() {
+    Pessoa gabriel ("Gabriel", 20, 110.0);
+    Pessoa claudete("Claudete, 49, 112.0);
+    
+   gabriel.exibirDados();
+   claudete.exibirDados();
+
+   return 0;
+}
+   
